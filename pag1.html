@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>	
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="indice" content="pagina principal"/>
+	<link rel="stylesheet" href="cssweb.css" type="text/css">
+ 	<title></title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">	
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+			<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+			<script language="JavaScript">
+				$(document).ready(function(){
+    var $cabecera = $('#menu1');
+    var $logo = $('#menu');
+    var previousScroll = 0;
+    $(window).scroll(function(event){
+       var scroll = $(this).scrollTop();
+       if (scroll > previousScroll && scroll > 200){
+           $logo.addClass('logoOnOff');
+           $cabecera.addClass('bgcolor');
+		   } else {
+          $logo.removeClass('logoOnOff');
+           $cabecera.removeClass('bgcolor');
+       }
+       previousScroll = scroll;    });
+ 
+  });
+			</script>
+
+	</head>
+	<body>
+	<div id="general">
+	<div id="divgrande1">
+		
+		
+		<div id="menu">
+			<div id="logo"></div>
+			<div id="menunombre"></div>
+			<div id="menu1">
+				<nav class="loco"><ul>
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">DÓNDE ESTAMOS</a></li>
+        <li><a href="#">SERVICIOS</a>
+            <ul><li><a href="">Servicio 1</a></li>
+            <li><a href="">Servicio 2</a></li>
+            <li><a href="">Servicio 3</a></li>
+            <li><a href="">Servicio 4</a></li></ul>
+            </li>
+        <li><a href="#">TARIFAS</a></li>
+        <li><a href="#">CONTACTO</a></li>
+    </ul></nav>
+   
+			</div>
+		</div> 
+		<div id="menu2">
+			<div id="logo"></div>
+			
+			<div id="menu11">
+				<nav class="loco1"><ul>
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">DÓNDE ESTAMOS</a></li>
+        <li><a href="#">SERVICIOS</a>
+            <ul><li><a href="">Servicio 1</a></li>
+            <li><a href="">Servicio 2</a></li>
+            <li><a href="">Servicio 3</a></li>
+            <li><a href="">Servicio 4</a></li></ul>
+            </li>
+        <li><a href="#">TARIFAS</a></li>
+        <li><a href="#">CONTACTO</a></li>
+    </ul></nav>
+   
+			</div>
+		</div>
+		<!--<div id="presupuesto"><p>Amplia tu negocio en internet con una página web.<br> Llega a muchos más clientes gracias a tu web.<br><br>Crea tu web, crece tu negocio.</p></div>-->
+
+		
+	</div>
+	<div id="divgrande2">
+
+		<hr></hr>
+		<div id="quienes">
+			<div id="quienessomos">
+					<h1>¿Quiénes somos?</h1>
+			</div>
+			<div id="quienessomos1">
+				<p>Somos una empresa dedicada a la implantación de sitios web para pymes.Diseñamos tu página web para que amplies tu mercado a internet. También realizamos instalaciones de topologías de red.</p>
+			</div>
+		</div>
+		<hr></hr>
+	
+	</div>
+	</div>
+	<div id="divgrande3">
+		<div id="amplia">
+		<div id="presupuesto1"><p>Pide presupuesto<br> sin compromiso</p></div>
+		<div id="boton1"><a href="#"><p>SOLICITAR PRESUPUESTO</a></p></div>
+		</div>
+	</div>
+	
+	</body>
+</html>

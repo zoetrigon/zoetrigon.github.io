@@ -1,0 +1,217 @@
+
+#divgrande1{
+	position:absolute;
+	border:px solid red;
+	width:1526px;
+	height:700px;
+	
+	margin-left:-20px;
+	margin-top:-10px;
+		margin-left:-15px;
+
+ background:url('fondoo.png') no-repeat;
+ 
+}
+
+
+
+#divgrande2{position:absolute;
+	
+	width:1526px;
+	height:700px;
+	margin-left:-15px;
+	margin-top:700px;
+
+}
+hr{width:1000px;}
+#quienes{border:px solid black;
+width:1200px;
+height:400px;
+margin:auto;
+margin-top:80px;}
+#quienessomos{border:px solid black;position:Relative;
+width:500px;
+height:140px;
+font-size:30px;font-family: 'Inria Sans', sans-serif;}
+#quienessomos1{border:px solid black;
+width:1200px;height:200px;
+font-size:30px;font-family: 'Inria Sans', sans-serif;}
+#menu{
+
+	border:px solid red;
+	width:1460px;
+	height:140px;
+	margin-left:40px;
+	margin-top:0px;
+	position: fixed;
+		background-color:#423C3C;
+		z-index:2;
+}
+#menu2{
+
+	border:px solid red;
+	width:1460px;
+	height:100px;
+	margin-left:40px;
+	margin-top:-30px;
+	position: fixed;
+		background-color:#423C3C;
+		z-index:1;
+}
+ .bgcolor{
+    
+height:100px;
+
+    transition: all .35s ease-in-out
+  
+  }
+ .logoOnOff{
+display:none;
+
+     transition: all .35s ease-in-out;
+  }
+#logo{
+	position:relative;
+		border:px solid red;
+	width:130px;
+	height:100px;
+	margin-left:20px;
+	margin-top:10px;
+	content:url('logo.png');	
+}	
+#menu1{
+	
+	border:px solid red;
+	border-bottom:px solid black;
+	width:1100px;
+	height:40px;
+	margin-left:220px;
+	margin-top:0px;
+	color:white;
+}
+#menu11{
+	
+	border:px solid red;
+	border-bottom:px solid black;
+	width:1100px;
+	height:40px;
+	margin-left:220px;
+	margin-top:-70px;
+	color:white;
+}
+#menunombre{border:px solid white;width:500px;height:80px;margin:auto;;margin-top:-110px; content:url('letras.png');margin-left:515px;}
+
+
+
+.loco a{
+      text-decoration:none;
+      color:white;
+      font-size:20px;
+	  font-family: 'Baloo Thambi 2', cursive;
+      }
+            
+.loco li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:2px 100px;
+   
+      border:px solid #000;
+      text-align:center;
+      color:#000;
+      position:relative;
+}
+            
+.loco li:hover{
+      background-color:#D7D0D0;
+      color:#000;
+      }
+            
+.loco li>ul{
+      display:none;
+      }
+
+.loco li:hover>ul{
+      display:inline-block;;
+      position:absolute;
+	  padding-left:0px;
+      top:35px;
+      left:0px;
+	  background-color:black;
+	  text-align:center;
+}
+.loco1 a{
+      text-decoration:none;
+      color:white;
+      font-size:20px;
+	  font-family: 'Baloo Thambi 2', cursive;
+      }
+            
+.loco1 li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:2px 20px;
+   
+      border:px solid #000;
+      text-align:center;
+      color:#000;
+      position:relative;
+}
+            
+.loco1 li:hover{
+      background-color:#D7D0D0;
+      color:#000;
+      }
+            
+.loco1 li>ul{
+      display:none;
+      }
+
+.loco1 li:hover>ul{
+      display:inline-block;;
+      position:absolute;
+	  padding-left:0px;
+      top:35px;
+      left:0px;
+	  background-color:black;
+	  text-align:center;
+}
+#divgrande3{position:absolute;
+	margin-top:1300px;
+	margin-left:-10px;
+	border:px solid black;
+width:1521px;
+height:450px;
+ background:url('mark.png') no-repeat;}
+ #amplia{border:px solid black;
+ margin:auto;
+ margin-left:270px;
+ width:1000px;
+ height:300px;
+ margin-top:150px;font-size:30px;font-family: 'Inria Sans', sans-serif;}
+ #presupuesto{position:relative;
+	border:px solid black;
+	width:1000px;
+	margin-top:290px;
+	margin-left:280px;
+	font-size:30px;
+	color:black;
+	font-family: 'Inria Sans', sans-serif;text-align:center;}
+#boton1{position:relative;
+border:1px solid black;
+margin-left:560px;
+margin-top:-140px;
+width:260px;
+height:70px;
+font-family: 'Inria Sans', sans-serif;
+font-size:22px;
+text-align:center;
+text-decoration:none;
+border-radius:10px;
+background-color:#E7E3E3;
+color:black;}
+#boton1:hover {background-color:#9A8787;
+}
+#presupuesto1{font-size:50px;margin-left:-100px;}
+a {text-decoration:none;color:black;}
